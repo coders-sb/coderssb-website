@@ -8,6 +8,7 @@ import moment from "moment";
 import events from "../../utils/events";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import CustomEvent from "./CustomEvent";
+import "../../redesign/index.css";
 
 class Calendar extends React.Component {
   constructor(props) {
@@ -40,9 +41,12 @@ class Calendar extends React.Component {
   }
   render() {
     return (
+
       <div>
+        <div className="calendarBackground">
+        <h1 className="calendar"> Calendar </h1>
         <p style={{ textAlign: "center", fontWeight: "bold" }}>
-          Note: All times are show in Pacific time (PST/PDT).
+          Note: All times are shown in Pacific time (PST/PDT).
         </p>
         <div style={{ height: "500pt", padding: "20px" }}>
           <BigCalendar
@@ -63,6 +67,7 @@ class Calendar extends React.Component {
           />
         </div>
       </div>
+    </div>
     );
   }
 }

@@ -67,6 +67,57 @@
 	transition-delay: 0.1s;
 }
 
+h3.eventCard {
+	font-family: "Work Sans", sans-serif;
+	color: var(--white);
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+  
+p.EventCard {
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	color: white;
+	margin-top: 5px;
+	font-size: 14.5px;
+}
+
+h1.upcomingEvents {
+	font-family: 'Work Sans', sans-serif;
+	color: var(--black);
+	font-size: 45px;
+	text-align: left;
+	margin-left: 15px;
+}
+
+p.upcomingEvents {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	color: var(--black);
+	font-size: 14.5px;
+	text-align: left;
+	margin-left: 15px;
+}
+
+/* .eventsOverview {
+	background-color: #E4FDE1;
+} */
+
+h1.calendar {
+	font-family: 'Work Sans', sans-serif;
+	color: var(--black);
+	font-size: 45px;
+	text-align: left;
+	margin-left: 15px;
+}
+
+/* .calendarBackground {
+	background-color: #E4FDE1;
+	margin: 0;
+} */
+
+
+
 /* 
 
 Additional margins
