@@ -55,8 +55,8 @@ class Calendar extends React.Component {
   }
 
   componentDidMount() {
-    let calendarID = '8hv334vs0a44fc19dpml9ndup4@group.calendar.google.com';
-    let apiKey = 'AIzaSyB8T1J2iSaVzmEWAZ9eC2oCsY9-UrEJTV4';
+    let calendarID = '';
+    let apiKey = '';
     this.getGoogleCalendarEvents(calendarID, apiKey)
       .then((data) => {this.setState({
         events: data.map((event) => {
