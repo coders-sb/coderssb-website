@@ -22,13 +22,19 @@ export default class CustomEvent extends React.Component {
       if (this.state.hover) {
         linkStyle = {color: 'black', textDecoration: 'underline'};
       } else {
-        linkStyle = {color: 'white'};
+        linkStyle = {color: 'black'};
       }
 
         return (
-        <h8 className="paragraph-text" style={linkStyle} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover} onClick={this.handleClick}>
-            {this.props.event.title}
-        </h8>
+        <div>
+          <h8 className="paragraph-text" style={linkStyle} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover} onClick={this.handleClick}>
+              {this.props.event.title}
+          </h8>
+          <br />
+          <h8 className="caption-text" style={linkStyle} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover} onClick={this.handleClick}>
+              {this.props.event.location}
+          </h8>
+        </div>
         );
     }
 }
