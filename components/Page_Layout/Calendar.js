@@ -42,7 +42,7 @@ class Calendar extends React.Component {
   }
 
   async getGoogleCalendarEvents(calendarID, apiKey) {
-    let url = `https://www.googleapis.com/calendar/v3/calendars/${calendarID}/events?key=${apiKey}`
+    let url = `https://www.googleapis.com/calendar/v3/calendars/${calendarID}/events?key=${apiKey}`;
     return fetch(url)
       .then((response) => response.json())
       .then((data) => data.items);
@@ -55,8 +55,8 @@ class Calendar extends React.Component {
   }
 
   componentDidMount() {
-    let calendarID = '';
-    let apiKey = '';
+    let calendarID = '8hv334vs0a44fc19dpml9ndup4@group.calendar.google.com';
+    let apiKey = 'AIzaSyB8T1J2iSaVzmEWAZ9eC2oCsY9-UrEJTV4';
     this.getGoogleCalendarEvents(calendarID, apiKey)
       .then((data) => {this.setState({
         events: data.map((event) => {
