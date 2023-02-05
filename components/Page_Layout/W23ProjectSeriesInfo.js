@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import "../../css/index.css";
 import Faq from "react-faq-component";
 
-export default function ProjectSeriesPage() {
+export default function W23ProjectSeriesPage() {
     const data = {
         title: <h2 className="h2">Frequently Asked Questions</h2>,
         rows: [
@@ -102,7 +102,7 @@ export default function ProjectSeriesPage() {
             <br></br>
             <div>
                 <video id="animated-schedule-winter-project-series" width="102%" margin="5px" autoPlay loop muted>
-                    <source src="./ProjectSeries/scheduleAnimated.mp4" type="video/mp4"/>
+                    <source src="./W21ProjectSeries/scheduleAnimated.mp4" type="video/mp4"/>
                     Your browser does not support this video format.
                 </video>
             </div>
@@ -113,21 +113,21 @@ export default function ProjectSeriesPage() {
                 <tr>
                     <td>
                         <img
-                            src="ProjectSeries/promo-c.png"
+                            src="W21ProjectSeries/promo-c.png"
                             alt="Introducting Coders SB's project series."
                             className="imgHoverWithShadow"
                         />
                     </td>
                     <td>
                         <img
-                            src="ProjectSeries/workshop1-c.png"
+                            src="W21ProjectSeries/workshop1-c.png"
                             alt="Workshop1: Creating and hosting a React application."
                             className="imgHoverWithShadow"
                         />
                     </td>
                     <td>
                         <img
-                            src="ProjectSeries/workshop2-c.png"
+                            src="W21ProjectSeries/workshop2-c.png"
                             alt="Workshop2: React fundamentals."
                             className="imgHoverWithShadow"
                         />
@@ -150,21 +150,21 @@ export default function ProjectSeriesPage() {
                 <tr>
                     <td>
                         <img
-                            src="ProjectSeries/workshop3-c.png"
+                            src="W21ProjectSeries/workshop3-c.png"
                             alt="Workshop3: Google OAuth Sign In."
                             className="imgHoverWithShadow"
                         />
                     </td>
                     <td>
                         <img
-                            src="ProjectSeries/midpointShowcase-c.png"
+                            src="W21ProjectSeries/midpointShowcase-c.png"
                             alt="Midpoint Showcase."
                             className="imgHoverWithShadow"
                         />
                     </td>
                     <td>
                         <img
-                            src="ProjectSeries/workshop4-c.png"
+                            src="W21ProjectSeries/workshop4-c.png"
                             alt="Workshop 4: Creating and hosting a React application."
                             className="imgHoverWithShadow"
                         />
@@ -186,21 +186,21 @@ export default function ProjectSeriesPage() {
                 <tr>                  
                     <td>
                         <img
-                            src="ProjectSeries/workshop5-c.png"
+                            src="W21ProjectSeries/workshop5-c.png"
                             alt="Workshop5: connect to database."
                             className="imgHoverWithShadow"
                         />
                     </td>
                     <td>
                         <img
-                            src="ProjectSeries/workWeek-c.png"
+                            src="W21ProjectSeries/workWeek-c.png"
                             alt="There are no workshops this week. Use this time to finish up your Website."
                             className="imgHoverWithShadow"
                         />
                     </td>
                     <td>
                         <img
-                            src="ProjectSeries/finalShowcase-c.png"
+                            src="W21ProjectSeries/finalShowcase-c.png"
                             alt="Final Project Showcase!"
                             className="imgHoverWithShadow"
                         />
@@ -223,7 +223,7 @@ export default function ProjectSeriesPage() {
             <div className="w3-row" id="project-series-resources">
                 <div className="w3-col m6 s2 w3-padding-large">
                 <video id="animated-resources-winter-project-series" width="100%" className="resources" autoPlay loop muted>
-                    <source src="./ProjectSeries/resources.mp4" type="video/mp4"/>
+                    <source src="./W21ProjectSeries/resources.mp4" type="video/mp4"/>
                     Your browser does not support this video format.
                 </video>
                 </div>
@@ -281,7 +281,7 @@ export default function ProjectSeriesPage() {
             <br></br>
             <div>
                 <video id="animated-happy-coding-winter-project-series" width="102%" margin="5px" autoPlay loop muted>
-                    <source src="./ProjectSeries/happyCoding.mp4" type="video/mp4"/>
+                    <source src="./W21ProjectSeries/happyCoding.mp4" type="video/mp4"/>
                     Your browser does not support this video format.
                 </video>
             </div>

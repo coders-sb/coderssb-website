@@ -12,7 +12,7 @@ export const events = [
     title: "Social & Intro to W21",
     start: new Date(2022, 10, 22, 19, 0, 0),
     end: new Date(2022, 10, 22, 20, 0, 0),
-    url: "https://www.coderssb.com/ProjectSeries",
+    url: "https://www.coderssb.com/W21ProjectSeries",
     info:
       "Join us for a fun night of games and and learn more about our upcoming events for the Winter",
     pic: "Events/Fall2022/tech_interview_prep_s2.png",
@@ -24,7 +24,7 @@ export const events = [
     title: "Linkedin & Resume Workshop",
     start: new Date(2022, 10, 17, 19, 0, 0),
     end: new Date(2022, 10, 17, 19, 30, 0),
-    url: "https://www.coderssb.com/ProjectSeries",
+    url: "https://www.coderssb.com/W21ProjectSeries",
     info:
       "Click to learn more about our Linkedin & Resume workshop. Stop by for 1:1 feedback",
     pic: "Events/Fall2022/mock_interview_s1.png",
@@ -35,7 +35,7 @@ export const events = [
     title: "Project Series: Intro to React",
     start: new Date(2022, 10, 11, 19, 0, 0),
     end: new Date(2022, 10, 11, 20, 30, 0),
-    url: "https://www.coderssb.com/ProjectSeries",
+    url: "https://www.coderssb.com/W21ProjectSeries",
     info:
       "Project Series Workshop 1: Creating and hosting a React application.",
     pic: "Events/Fall2022/mock_interview_s2.png",
@@ -48,7 +48,7 @@ export const events = [
     end: new Date(2021, 0, 21, 20, 30, 0),
     url: "https://fb.me/e/3ar3Ec8xU",
     info: "Project Series Workshop 2: React fundamentals.",
-    pic: "ProjectSeries/workshop2-c.png",
+    pic: "W21ProjectSeries/workshop2-c.png",
     alt: "Learning the fundamentals of react project series graphic"
   },
   {
@@ -67,10 +67,10 @@ export const events = [
     title: "Project Series: Google OAuth Sign In",
     start: new Date(2021, 0, 28, 19, 0, 0),
     end: new Date(2021, 0, 28, 20, 30, 0),
-    url: "https://www.coderssb.com/ProjectSeries",
+    url: "https://www.coderssb.com/W21ProjectSeries",
     info:
       "Learn how to let users login to your website via their Google account",
-    pic: "ProjectSeries/workshop3-c.png",
+    pic: "W21ProjectSeries/workshop3-c.png",
     alt: "Google OAuth sign in tutorial"
   },
   {
@@ -78,9 +78,9 @@ export const events = [
     title: "Project Series: Midpoint Showcase",
     start: new Date(2021, 1, 4, 19, 0, 0),
     end: new Date(2021, 1, 4, 20, 30, 0),
-    url: "https://www.coderssb.com/ProjectSeries",
+    url: "https://www.coderssb.com/W21ProjectSeries",
     info: "Present a video demo of your wesbite",
-    pic: "ProjectSeries/midpointShowcase-c.png",
+    pic: "W21ProjectSeries/midpointShowcase-c.png",
     alt: "Midpoint showcase graphic"
   },
   {
@@ -88,10 +88,10 @@ export const events = [
     title: "Project Series: Connecting to a database",
     start: new Date(2021, 1, 11, 19, 0, 0),
     end: new Date(2021, 1, 11, 20, 30, 0),
-    url: "https://www.coderssb.com/ProjectSeries",
+    url: "https://www.coderssb.com/W21ProjectSeries",
     info:
       "Learn how to let users login to your website via their Google account",
-    pic: "ProjectSeries/workshop4-c.png",
+    pic: "W21ProjectSeries/workshop4-c.png",
     alt: "Connecting to a database project series graphic"
   },
   {
@@ -99,9 +99,9 @@ export const events = [
     title: "Project Series: Connecting to an API",
     start: new Date(2021, 1, 18, 19, 0, 0),
     end: new Date(2021, 1, 18, 20, 30, 0),
-    url: "https://www.coderssb.com/ProjectSeries",
+    url: "https://www.coderssb.com/W21ProjectSeries",
     info: "Learn how to utilize an API to fetch data for your website",
-    pic: "ProjectSeries/workshop5-c.png",
+    pic: "W21ProjectSeries/workshop5-c.png",
     alt: "Conecting to an API project series graphic"
   },
   {
@@ -119,10 +119,10 @@ export const events = [
     title: "Project Series: Work Week",
     start: new Date(2021, 1, 25, 18, 30, 0),
     end: new Date(2021, 1, 25, 19, 30, 0),
-    url: "https://www.coderssb.com/ProjectSeries",
+    url: "https://www.coderssb.com/W21ProjectSeries",
     info:
       "There are no workshops this week. Use this time to finish up your Website.",
-    pic: "ProjectSeries/workWeek-c.png",
+    pic: "W21ProjectSeries/workWeek-c.png",
     alt: "Project series work week graphic"
   },
   {
@@ -130,9 +130,9 @@ export const events = [
     title: "Project Series Final Showcase",
     start: new Date(2021, 2, 4, 18, 30, 0),
     end: new Date(2021, 2, 4, 19, 30, 0),
-    url: "https://www.coderssb.com/ProjectSeries",
+    url: "https://www.coderssb.com/W21ProjectSeries",
     info: "Demo your website in front of recruiters and win prizes!",
-    pic: "ProjectSeries/finalShowcase-c.png",
+    pic: "W21ProjectSeries/finalShowcase-c.png",
     alt: "Final showcase graphic"
   },
   {

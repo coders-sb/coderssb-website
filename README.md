@@ -21,3 +21,25 @@
 - `npm run export`: builds then exports entire application to static HTML under `./out`
 - `npm run deploy`: builds, exports, then commits and pushes `./out/*` to the `gh-pages` branch on remote
   - `npm run deploy -- -m "message"` adds a message to commit that is pushed to `gh-pages`
+
+# Testing a production build on your fork
+
+While on a fork, you can test the website in production by publishing it to your fork's GitHub Pages site.
+
+1. Create a new branch named `gh-pages` in your fork
+2. On your fork, under `Settings > Pages`, deploy the newly created gh-pages branch from root.
+3. Go to the branch that you want to test on a local copy of your fork.
+4. Add two lines to `next.config.js` as shown below.
+```
+    ...
+    GOOGLE_CLIENT_ID:
+      process.env.GOOGLE_CLIENT_ID
+  },
++ basePath: "/coderssb-website",
++ assetPrefix: "/coderssb-website"
+});
+```
+Do NOT push this change to the main repository, since it will break stylesheet references.
+
+4. Deploy using `npm run deploy` (this will automatically push to `gh-pages` on your fork).
+5. View site at `<username>.github.io/coderssb-website` (this may take a couple minutes).

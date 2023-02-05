@@ -60,9 +60,22 @@ export default function navbar(props) {
           {/* <Link href="/Merchandise">
             <a className="tab">Merchandise</a>
           </Link> */}
-          <Link href="/ProjectSeries">
-            <a className="tab">Project Series</a>
+          
+          <Link href="/W23ProjectSeries">
+            <div className="dropdown">
+              <button className="dropbtn">Project Series</button>
+              <div className="dropdown-content">
+                <Link href="/W23ProjectSeries">
+                  <a className="tab">Winter 2023</a>
+                </Link>
+                <Link href="/W21ProjectSeries">
+                  <a className="tab">Winter 2021</a>
+                </Link>
+              </div>
+            </div>
           </Link>
+          
+          
           {/* Uncomment to add dropdown (delete duplicate link below) */}
           {/* <div className="dropdown">
             <button className="dropbtn">Events</button>
@@ -126,8 +139,11 @@ export default function navbar(props) {
         <Link href="/Resources">
           <a className="tab w3-bar-item">Useful Resources</a>
         </Link>
-        <Link href="/ProjectSeries">
-          <a className="tab w3-bar-item">Project Series</a>
+        <Link href="/W23ProjectSeries">
+          <a className="tab w3-bar-item">Winter 2023</a>
+        </Link>
+        <Link href="/W21ProjectSeries">
+          <a className="tab w3-bar-item">Winter 2021</a>
         </Link>
         <Link href="/Calendar">
           <a className="tab w3-bar-item">Calendar</a>
